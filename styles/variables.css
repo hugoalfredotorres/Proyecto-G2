@@ -1,16 +1,15 @@
-:root{
-    --tipografiaGeneral:'Roboto';
-    --tipografiaGeneral1:'Montserrat';
-    --colorHeaderFooter: #f5ac7b;
-    --colorBtnRegistro: #62a0e2;
-    --colorBotones: #194e86;
-    --colorBackgroundCard:rgb(245, 172, 123, 10%);
-    --colorBordeCard: #ccc;
-    --colorCardDetails: #666;
-    --colorFormContainer:#ffe0db;
-    --ColorFormBody:#665d5d;
-    --colorNavBarMenu: #194e86;
-    --colorTitulos:#194c86;
-
-
+:root {
+  --tipografiaGeneral: "Roboto";
+  --tipografiaGeneral1: "Montserrat";
+  --colorHeaderFooter: #f5ac7b;
+  --colorBtnRegistro: #62a0e2;
+  --colorBotones: #194e86;
+  --colorBackgroundCard: rgb(245, 172, 123, 10%);
+  --colorBordeCard: #ccc;
+  --colorCardDetails: #666;
+  --colorFormContainer: #ffe0db;
+  --ColorFormBody: #665d5d;
+  --colorNavBarMenu: #194e86;
+  --colorTitulos: #194c86;
+  --colorFondo: #d5e6f8;
 }

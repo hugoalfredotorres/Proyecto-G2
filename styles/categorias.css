@@ -1,0 +1,44 @@
+@import url(./variables.css);
+
+.textoblanco{
+
+    color: white;
+}
+
+.contenedorpeliculas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pelicula{
+    display: flex;
+    width: 16%;
+}
+
+.pelicula img{
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+h2{
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.carousel .slide{
+    margin-bottom: 3rem;
+}
+
+main{
+    background-color: var(--colorFondo) ;
+}
