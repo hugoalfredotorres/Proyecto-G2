@@ -38,3 +38,9 @@ form button {
 form button:hover {
     background-color: #b07fff;
 }
+body {
+    background: url(/img/fondo\ de\ pag.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    
+}
