@@ -68,7 +68,7 @@ H3{
   position: absolute;
   bottom: 0;
   color: white;
-  background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1)) /** transparente**/
+  background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1)); /** transparente**/
   width: 100%;
   margin: 0;
   padding: 15px;
@@ -112,3 +112,4 @@ H3{
   grid-row-start: span 3;
 }
 
+}
