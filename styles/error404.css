@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bodyError404{
+    min-height: 100vh;
+    background-image: url(/img/FondoLogin.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.containerError404{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 450px;
+    padding: 30px 40px;
+    border-radius: 8px;
+    color:gold;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.perror404{
+    color: darkorange;
+    font-size: 20px;
+}
+
+
+
+
+.btnerror404{
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color:blueviolet;
+    background-color: darkgoldenrod;
+    transition: 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.btnerror404:hover{
+    
+    background-color: gold;
+}
