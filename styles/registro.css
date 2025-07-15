@@ -1,0 +1,46 @@
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: #1e1f3f;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(157, 78, 221, 0.2) ;
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    text-align: left;
+    color: #fff;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #2a2b5c;
+    color: #fff;
+}
+
+form button {
+    background-color: #9d4edd;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b07fff;
+}
+body {
+    background: url(/img/fondo\ de\ pag.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    
+}
