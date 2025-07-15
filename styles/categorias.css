@@ -89,10 +89,14 @@ main {
   height: 45px;
   border: white 1px solid;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
   &:hover {
     background-color: rgba(68, 64, 64, 0);
     transition: 0.2s;
+    color: white;
   }
 }
-
-
