@@ -12,11 +12,16 @@ body {
 .contenedorpeliculas {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 0px 2rem 0px;
 }
 
 .pelicula {
   display: flex;
   width: 16%;
+  &:hover {
+    transition: 0.3s;
+    transform: scale(110%);
+  }
 }
 
 .pelicula img {
