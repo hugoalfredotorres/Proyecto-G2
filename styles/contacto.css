@@ -1,5 +1,9 @@
+body{
+  background: url(/img/FondoLogin.png);
+}
+
 .contact-card {
-  background: linear-gradient(to bottom right, #e0f2ff, #cfe0f9);
+  background: linear-gradient(to bottom right, #b110a991, #cfe0f9);
   border-radius: 16px;
   padding: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -18,4 +22,9 @@
 
 .form-control:focus {
   box-shadow: none;
+}
+
+.boton
+{
+  background: gold;
 }
