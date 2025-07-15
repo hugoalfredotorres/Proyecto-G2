@@ -144,3 +144,35 @@ H3{
   justify-content: space-between;
   display: flex;
 }
+
+.contenedorpeliculas {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0px 2rem 0px;
+}
+
+.pelicula {
+  display: flex;
+  width: 16%;
+  &:hover {
+    transition: 0.3s;
+    transform: scale(110%);
+  }
+}
+
+.pelicula img {
+  width: 100%;
+}
+
+.tituloDesCaRec{
+   margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
