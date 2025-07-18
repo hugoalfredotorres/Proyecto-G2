@@ -1,8 +1,11 @@
 body{
   background: url(/img/FondoLogin.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.contact-card {
+.tarjeta-contacto {
   background: linear-gradient(to bottom right, #b110a991, #cfe0f9);
   border-radius: 16px;
   padding: 30px;
@@ -11,20 +14,22 @@ body{
   margin: auto;
 }
 
-.input-group-text {
+.icono-formulario {
   background-color: white;
   border-right: none;
 }
 
-.form-control {
+.campo-input {
   border-left: none;
 }
 
-.form-control:focus {
+.campo-input:focus {
   box-shadow: none;
 }
 
-.boton
+.boton-enviar
 {
   background: gold;
+  color: white;
+  font-weight: bold;
 }
