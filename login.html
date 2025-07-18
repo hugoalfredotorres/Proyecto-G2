@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/6d2d72b619.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+
+<section class="bodyLogin">
+    <div class="containerLogin">
+        <h1>Ingreso de Usuarios</h1>
+        <form class="form-login">
+            <div class="input-box">
+                <input type="text" placeholder="E-mail / Usuario" required minlength="4" maxlength="35" pattern="[A-Za-z0-9_]{4,35}" title="Debe incluir mínimo cuatro caracteres. Solo letras mayúsculas, minúsculas, números y guión bajo sin espacios">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Contraseña" required minlength="8" maxlength="12" pattern="[A-Za-z0-9]{8,12}" title="Debe incluir mínimo ocho caracteres. Solo letras mayúsculas, minúsculas, números, sin espacios">
+                <i class="fa-solid fa-key"></i>
+            </div>
+
+            <div class="remember-password">
+                <label><input type="checkbox">Recordarme</label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+
+            </div>
+
+            <button class="btn">Ingresar</button>
+            <p class="register">¿Aún no creaste una cuenta?<a href="#">Registrarme</a></p>
+
+
+        </form>
+
+    </div>
+    
+
+    
+</section>
+</body>
+</html>
