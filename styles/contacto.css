@@ -12,24 +12,39 @@ body{
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin: auto;
+  color: #ffd700;
 }
 
 .icono-formulario {
-  background-color: white;
+  background-color: #ffffff;
   border-right: none;
+  color: #1a1a40;
 }
 
 .campo-input {
   border-left: none;
+  border-radius: 8px;
+  background-color: #f8f9fa;
 }
 
 .campo-input:focus {
-  box-shadow: none;
+  box-shadow:none;
+  border-color: #ffd700;
 }
 
 .boton-enviar
 {
-  background: gold;
-  color: white;
+  border-radius: 30px;
+  border: 0;
+  color: blueviolet;
+  background: goldenrod;
   font-weight: bold;
+  transition: 0.5s ease;
+
 }
+
+.boton-enviar:hover {
+  background: #e6c200;
+  color: rgb(172, 80, 172);
+}
+
