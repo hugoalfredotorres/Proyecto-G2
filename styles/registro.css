@@ -1,13 +1,18 @@
-form {
+.registro{
+   margin-top: 75px;
+}
+
+form{
     max-width: 500px;
     margin: auto;
     background-color: #1e1f3f;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(157, 78, 221, 0.2) ;
+   
 }
 
-form label {
+form label{
     display: block;
     margin: 1rem 0 0.5rem;
     text-align: left;
@@ -15,7 +20,7 @@ form label {
 }
 
 form input,
-form select {
+form select{
     width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
@@ -25,7 +30,7 @@ form select {
     color: #fff;
 }
 
-form button {
+form button{
     background-color: #9d4edd;
     border: none;
     padding: 0.7rem 1.5rem;
@@ -35,12 +40,23 @@ form button {
     transition: background-color 0.3s ease;
 }
 
-form button:hover {
+form button:hover{
     background-color: #b07fff;
 }
-body {
+
+body{
     background: url(/img/fondo\ de\ pag.jpg)
     no-repeat center center fixed;
     background-size: cover;
+
+}
     
+.btn-volver{
+    align-items: end;
+
+}
+
+.btn{
+    margin-left: 100px;
+    background-color: goldenrod;
 }
