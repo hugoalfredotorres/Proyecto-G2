@@ -1,8 +1,13 @@
-body{
+.fondo-contacto {
   background: url(/img/FondoLogin.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
 }
 
 .tarjeta-contacto {
@@ -23,7 +28,7 @@ body{
 
 .campo-input {
   border-left: none;
-  border-radius: 8px;
+  border-radius: 3px;
   background-color: #f8f9fa;
 }
 
