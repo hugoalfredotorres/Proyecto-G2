@@ -30,7 +30,8 @@ footer {
 .text-p3 {
   font-size: 40px;
 }
-body {
+
+.body-nosotros {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom right, Blueviolet, goldenrod);
