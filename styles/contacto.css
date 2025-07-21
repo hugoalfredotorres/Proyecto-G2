@@ -45,11 +45,42 @@
   background: goldenrod;
   font-weight: bold;
   transition: 0.5s ease;
-
 }
 
 .boton-enviar:hover {
   background: #e6c200;
   color: rgb(172, 80, 172);
+}
+
+@media (max-width:576x) {
+  .tarjeta-contacto {
+    padding: 20 px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .boton-enviar {
+    width: 100%;
+    font-size: 1.1 rem;
+    padding: 12px 0;
+  }
+
+  .campo-input {
+    font-size: 0.9rem;
+  }
+
+  label .form-label {
+    font-size: 0.9rem;
+  }
+
+  .input-group-text .icono-formulario {
+    font-size: 1rem;
+    min-width: 45px;
+    justify-content: center;
+  }
 }
 
