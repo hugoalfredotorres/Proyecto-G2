@@ -5,6 +5,14 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+nav {
+  background-color: rgb(66, 19, 110);
+}
+
+footer {
+  background-color: rgb(52, 12, 90);
+}
+
 .bodyLogin{
     min-height: 100vh;
     background-image: url(/img/FondoLogin.png);
