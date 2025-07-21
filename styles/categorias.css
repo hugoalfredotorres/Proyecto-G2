@@ -5,6 +5,14 @@ body {
   padding: 0;
 }
 
+nav {
+  background-color: rgb(66, 19, 110);
+}
+
+footer {
+  background-color: rgb(52, 12, 90);
+}
+
 .textoblanco {
   color: white;
 }
@@ -103,5 +111,40 @@ main {
     background-color: rgba(68, 64, 64, 0);
     transition: 0.2s;
     color: white;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bannerCsFiccion , .banner {
+    height: 300px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .contenedorpeliculas{
+    padding: 0;
+  }
+}
+
+@media (max-width:430px){
+  .bannerCsFiccion , .banner {
+    height: 180px;
+  }
+  .botonVerMas{
+    width: 20% ;
+    height: 20px;
+    font-size: 10px;
+  }
+  h1{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .contenedorpeliculas{
+    padding: 0;
   }
 }

@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Acerca de Nosotros</title>
-  <link rel="stylesheet" href="/styles/nosotros.css">
-</head>
-<body>
-   <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acerca de Nosotros</title>
+    <link rel="stylesheet" href="/styles/nosotros.css" />
+  </head>
+  <body>
+    <head>
       <!-- Seccion navbar-->
-        <section class=" sticky-top">
+      <section class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 mb-2">
+          <div class="container-fluid">
+            <img
+              src="img/g2.jpg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 mb-2 ">
-                <div class="container-fluid  ">
-                    <img src="img/g2.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="registro.html">Registro</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categoria
-                            </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Peliculas de Accion</a></li>
-                                    <li><a class="dropdown-item" href="#">Series</a></li>
-                                    <li><a class="dropdown-item" href="#">Comedias</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Infantiles</a></li>
-                                </ul>
-                        
-                        </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-danger" type="submit">Buscar</butto>
-                            </form>
-                    </div>
-                </div>
-            </nav>
-            
-        </section>
-        
-   </head>
-   <main></main>
-   <footer></footer>
-  <div class="container">
-    <h1>Acerca de Nosotros</h1>
-    <p>Responsabilidad y amabilidad sobre todo</p>
-    <section>
-      <div class="team-members">
-        <div class="member">
-          <img src="/img/estefy.jpg" alt="Participante 1" />
-          <p>Estefania Cabello</p>
-          <p>Developer</p>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="login.html"
+                    >Login</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registro.html">Registro</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categoria
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Peliculas de Accion</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Series</a></li>
+                    <li><a class="dropdown-item" href="#">Comedias</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Infantiles</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-secondary" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </head>
+    <main></main>
+    <footer></footer>
+    <div class="container">
+      <h1>Acerca de Nosotros</h1>
+      <p>Responsabilidad y amabilidad sobre todo</p>
+      <section>
+        <div class="team-members">
+          <div class="member">
+            <img src="/img/estefy.jpg" alt="Participante 1" />
+            <p>Estefania Cabello</p>
+            <p>Developer</p>
+          </div>
+          <div class="member">
+            <img src="/img/flor cabello.jpg" alt="Participante 2" />
+            <p>Florencia Cabello</p>
+            <p>Developer</p>
+          </div>
+          <div class="member">
+            <img src="/img/ht .jpg" alt="Participante 3" />
+            <p>Alfredo Hugo Torres</p>
+            <p>Developer</p>
+          </div>
+          <div class="member">
+            <img src="/img/jorge .jpg" alt="Participante 4" />
+            <p>Jorge Castellanos</p>
+            <p>Scrum master</p>
+          </div>
+          <div class="member">
+            <img src="/img/lean esper.jpg" alt="Participante 5" />
+            <p>Leandro Esper</p>
+            <p>Developer</p>
+          </div>
+          <div class="member">
+            <img src="/img/nico barquez.jpg" alt="Participante 6" />
+            <p>Nicolas Barquez</p>
+            <p>Developer</p>
+          </div>
         </div>
-        <div class="member">
-          <img src="/img/flor cabello.jpg" alt="Participante 2" />
-          <p>Florencia Cabello</p>
-          <p>Developer</p>
-        </div>
-        <div class="member">
-          <img src="/img/ht .jpg" alt="Participante 3" />
-          <p>Alfredo Hugo Torres</p>
-          <p>Developer</p>
-        </div>
-        <div class="member">
-          <img src="/img/jorge .jpg" alt="Participante 4" />
-          <p>Jorge Castellanos</p>
-          <p>Scrum master</p>
-        </div>
-        <div class="member">
-          <img src="/img/lean esper.jpg" alt="Participante 5" />
-          <p>Leandro Esper</p>
-          <p>Developer</p>
-        </div>
-        <div class="member">
-          <img src="/img/nico barquez.jpg" alt="Participante 6" />
-          <p>Nicolas Barquez</p>
-          <p>Developer</p>
-        </div>
-      </div>
-    </section>
-  </div>
-</body>
+      </section>
+    </div>
+  </body>
 </html>

@@ -13,12 +13,13 @@
     />
     <!--styles---->
     <link rel="stylesheet" href="/styles/categorias.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <!-- Seccion navbar-->
       <section class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 mb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark p-3">
           <div class="container-fluid">
             <img
               src="img/g2.jpg"
@@ -53,9 +54,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="registro.html">Registro</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link textoblanco" href="#"> Categoria </a>
-                </li>
               </ul>
               <form class="d-flex" role="search">
                 <input
@@ -64,9 +62,7 @@
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button class="btn btn-outline-danger" type="submit">
-                  Buscar
-                </button>
+                <button class="btn btn-secondary" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -80,7 +76,7 @@
         <a href="./error404.html" class="botonVerMas">Ver pelicula</a>
       </section>
 
-      <section>
+      <section data-aos="fade-up">
         <h2>CIENCIA FICCION</h2>
         <div class="mb-5">
           <div id="carouselExample" class="carousel slide">
@@ -167,7 +163,8 @@
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="prev"
@@ -179,7 +176,8 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="next"
@@ -194,7 +192,7 @@
         </div>
       </section>
 
-      <section>
+      <section data-aos="fade-up">
         <div class="">
           <div id="carouselCienciaFiccion" class="carousel slide">
             <div class="carousel-inner">
@@ -240,18 +238,42 @@
               </div>
               <div class="carousel-item">
                 <div class="contenedorpeliculas">
-                  <img src="/img/categorias/infantiles/losincreibles.jpeg" class="pelicula" alt="..." />
-
-                  <img src="/img/categorias/ciencia_ficcion/WhatsApp Image 2025-07-10 at 5.45.26 PM.jpeg" class="pelicula" alt="">
-                  <img src="/img/categorias/ciencia_ficcion/Yo,Robot.jpeg" class="pelicula" alt="">
-                  <img src="/img/categorias/ciencia_ficcion/zathura.jpeg" class="pelicula" alt="">
-                  <img src="/img/categorias/ciencia_ficcion/Avatar.jpeg" class="pelicula" alt="">
-                  <img src="/img/categorias/ciencia_ficcion/axl.jpeg" class="pelicula" alt="">
+                  <img
+                    src="/img/categorias/infantiles/losincreibles.jpeg"
+                    class="pelicula"
+                    alt="..."
+                  />
+                  <img
+                    src="/img/categorias/ciencia_ficcion/WhatsApp Image 2025-07-10 at 5.45.26 PM.jpeg"
+                    class="pelicula"
+                    alt=""
+                  />
+                  <img
+                    src="/img/categorias/ciencia_ficcion/Yo,Robot.jpeg"
+                    class="pelicula"
+                    alt=""
+                  />
+                  <img
+                    src="/img/categorias/ciencia_ficcion/zathura.jpeg"
+                    class="pelicula"
+                    alt=""
+                  />
+                  <img
+                    src="/img/categorias/ciencia_ficcion/Avatar.jpeg"
+                    class="pelicula"
+                    alt=""
+                  />
+                  <img
+                    src="/img/categorias/ciencia_ficcion/axl.jpeg"
+                    class="pelicula"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselCienciaFiccion"
               data-bs-slide="prev"
@@ -263,7 +285,8 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselCienciaFiccion"
               data-bs-slide="next"
@@ -277,12 +300,11 @@
           </div>
         </div>
       </section>
-
     </main>
 
     <footer>
       <div class="container-fluid mt-1">
-        <div class="row bg-secondary text-white">
+        <div class="row text-white">
           <div class="col-xs-12 col-md-4 col-lg-3">
             <p class="h5">Ubicacion</p>
             <p>San Martin 345</p>
