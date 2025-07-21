@@ -26,13 +26,13 @@
 
 </head>
 <body>
-    <head>
+    <header>
         <!-- Seccion navbar-->
         <section class=" sticky-top">
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 mb-2 ">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 ">
                 <div class="container-fluid  ">
-                    <img src="img/g2.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <img src="img/logoG2.jpeg" alt="Logo" width="70" height="44" class="d-inline-block align-text-top">
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,10 +40,10 @@
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
                             <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+                            <a class="nav-link" aria-current="page" href="login.html">Ingresar</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -52,22 +52,15 @@
                             <a class="nav-link" href="registro.html">Registro</a>
                             </li>
                             
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categoria
-                            </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Peliculas de Accion</a></li>
-                                    <li><a class="dropdown-item" href="#">Series</a></li>
-                                    <li><a class="dropdown-item" href="#">Comedias</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Infantiles</a></li>
-                                </ul>
+                            
+                            
                         
                         </ul>
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-danger" type="submit">Buscar</butto>
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+                            <button class="btn btn-secondary" type="submit">
+                  Buscar
+                </button>
                             </form>
                     </div>
                 </div>
@@ -75,13 +68,12 @@
             
         </section>
         
-    </head>
+    </header>
     
 <main>
         <!-- slider principal-->
 <section class="carrousel">
-<div class="container">
-    <H4 class="tituloDesCaRec">ESTRENOS</H4>
+<div>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -172,7 +164,7 @@
                     <i class="fa-regular fa-star"></i>
                 </div> 
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="text-h5 text-start">PROXIMAMENTE !!</h5>
+        <h5 class="text-h5 text-start">PROXIMAMENTE</h5>
                 <div class="movie-info text-start">
                     <i class="bx bxs-star"></i>
                     <span>9.5</span>
@@ -214,7 +206,7 @@
       </section>
 
        <!-- carrusel de recomendadas-->
-<section>
+      <section data-aos="fade-up">
         <h2 class="tituloDesCaRec">PELICULAS Y SERIES DESTACADAS</h2>
         <div class="mb-1">
           <div id="carouselExample" class="carousel slide">
@@ -263,13 +255,13 @@
                 <div class="contenedorpeliculas">
                   <a href="./error404.html" class="pelicula">
                     <img
-                      src="/img/categorias/ciencia_ficcion/GuardianesdeLaGalaxia.jpeg"
+                      src="/img/"
                       alt=""
                     />
                   </a>
                   <a href="./error404.html" class="pelicula">
                     <img
-                      src="/img/categorias/ciencia_ficcion/Interestelar.jpeg"
+                      src="/img/images/movies/1.jpg"
                       alt=""
                     />
                   </a>
@@ -301,7 +293,8 @@
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="prev"
@@ -313,7 +306,8 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="next"
@@ -328,9 +322,9 @@
         </div>
       </section>
 
-     <section>
+     <section data-aos="fade-up">
         <div class="mb-1">
-          <div id="carouselExample" class="carousel slide">
+          <div id="carouselExample2" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="contenedorpeliculas">
@@ -414,9 +408,10 @@
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExample2"
               data-bs-slide="prev"
             >
               <span
@@ -426,9 +421,10 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExample2"
               data-bs-slide="next"
             >
               <span
@@ -441,9 +437,9 @@
         </div>
       </section> 
 
-       <section>
+       <section data-aos="fade-up">
         <div class="mb-1">
-          <div id="carouselExample" class="carousel slide">
+          <div id="carouselExample3" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="contenedorpeliculas">
@@ -527,9 +523,10 @@
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExample3"
               data-bs-slide="prev"
             >
               <span
@@ -539,9 +536,10 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next bg-dark rounded-circle my-auto mx-2 text-white"
+              style="width: 60px; height: 60px"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExample3"
               data-bs-slide="next"
             >
               <span
@@ -554,60 +552,41 @@
         </div>
       </section>
       
+     <!-- SECCIÓN DE SUBSCRIPCIÓN -->
+<section class="subscription-section">
+  <h1>Elegí tu plan</h1>
 
-     <!-- slider terciario-->
-<section class="slider3"></section>
-<h3 class="tituloDesCaRec">RECOMENDADAS PARA TI</h3>
+  <div class="plans">
+    <div class="plan" >
+      <h3>Básico</h3>
+      <p>$5/mes</p>
+      <ul>
+        <li>Calidad SD</li>
+        <li>1 dispositivo</li>
+      </ul>
+    </div>
 
-<div class="gallery-container">
-    <div class="gallery__item">
-        <img src="/img/images/movies/bat-man.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2"> BAT-MAN</h2>
-        <p class="gallery__title gallery__p">1h-30min</p>
+    <div class="plan" '">
+      <h3>Estándar</h3>
+      <p>$9/mes</p>
+      <ul>
+        <li>Calidad HD</li>
+        <li>2 dispositivos a la vez</li>
+      </ul>
     </div>
-    <div class="gallery__item">
-        <img src="/img/images/GATG vol3.jpeg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">GATG VOL-3</h2>
-        <p class="gallery__title gallery__p">1h-40min</p>   
+
+    <div class="plan" >
+      <h3>Premium</h3>
+      <p>$13/mes</p>
+      <ul>
+        <li>Calidad 4K</li>
+        <li>4 dispositivos a la vez</li>
+        <li> Sin anuncios</li>
+      </ul>
     </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/call.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">CALL</h2>
-        <p class="gallery__title gallery__p">1h-55min</p>   
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/end-game.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">END-GAME</h2>
-        <p class="gallery__title gallery__p">2h-55min</p>    
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/hunter-killer.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">HUNTER-KILLER</h2>
-        <p class="gallery__title gallery__p">1h-55min</p>    
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/insidious.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">INSIDIUS</h2>
-        <p class="gallery__title gallery__p">1h-55min</p>    
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/love-roise.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">LOVE-ROISE</h2>
-        <p class="gallery__title gallery__p">1h-55min</p>    
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/resident-evil.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">RESIDENTE-EVIL</h2>
-        <p class="gallery__title gallery__p">2h-55min</p>    
-    </div>
-    <div class="gallery__item">
-        <img src="/img/images/movies/theatre-dead.jpg" alt="" class="gallery__img">
-        <h2 class="gallery__title gallery__h2">THEATRE-DEAD</h2>
-        <p class="gallery__title gallery__p">1h-55min</p>    
-    </div>
-        
-</div>
-</section>
+  </div>
+
+     
 
 
 
@@ -615,7 +594,7 @@
     <!-- Seccion footer-->
 <footer >
         <div class="container-fluid mt-1">
-            <div class="row bg-secondary text-white">
+            <div class="row text-white">
                 <div class="col-xs-12 col-md-4 col-lg-3">
                     <p class="h5">Ubicacion</p>
                     <p>San Martin 345</p>
@@ -650,7 +629,7 @@
                         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="formulario.html">Fomulario Contacto</a>
+                        <a class="text-white text-decoration-none" href="contacto.html">Fomulario Contacto</a>
                     </div>
                     
                 </div>
