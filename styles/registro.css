@@ -1,4 +1,16 @@
-form {
+nav {
+  background-color: rgb(66, 19, 110);
+}
+
+footer {
+  background-color: rgb(52, 12, 90);
+}
+
+.registro{
+   margin-top: 75px;
+}
+
+form{
     max-width: 500px;
     margin: auto;
     background-color: #1e1f3f;
