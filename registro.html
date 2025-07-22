@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/styles/registro.css">
 </head>
 <body>
-    
 
-      <form action="">
+  <section class="registro">
+      <form action="/error404.html">
         <label for="plan">Selecciona tu plan</label>
          <select name="plan" id="plan" required>
           <option value="Basico">Basico</option>
@@ -22,7 +22,7 @@
           <input type="text" id="nombre" name="nombre" minlength="2" maxlength="30" required>
 
           <label for="apellido">Apellido</label>
-           <input type="text" id="apellido" name="apellido" required>
+           <input type="text" id="apellido" name="apellido" minlength="2" maxlength="40" required>
 
            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
@@ -30,8 +30,17 @@
             <label for="password">Contraseña</label>
             <input type="password" id="password" name="password" minlength="6" pattern="((?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,})" title="Debe tener al menos una letra y un numero,minimo 6 caracteres" required>
 
-            <button type="submit">Crear cuenta</button>
+            <div class="btn-volver">
+              <button type="submit">Crear cuenta</button>
+
+              <a href="index.html">
+              <button class= "btn" type="button"> Volver al Inicio</button>
+              </a>
+            </div>
+            
       </form>
+
+
     </section>
 
 
