@@ -202,3 +202,48 @@ H3 {
     padding: 0;
   }
 }
+.subscription-section {
+  margin-top: 100px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background-color: #1e1f3f;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  border: 2px solid transparent;
+}
+
+.plan:hover {
+  transform: translateY(-10px);
+  background-color: #2a2b5c;
+  border-color: #9d4edd;
+}
+
+.plan h3 {
+  color: #9d4edd;
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  color: #bbb;
+}
+
+.plan ul li {
+  margin-bottom: 0.5rem;
+}
